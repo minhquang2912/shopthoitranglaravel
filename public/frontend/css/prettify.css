@@ -1,0 +1,30 @@
+.com {màu: # 93a1a1; }
+.lit {màu: # 195f91; }
+.pun, .opn, .clo {color: # 93a1a1; }
+.fun {color: # dc322f; }
+.str, .atv {color: # D14; }
+.kwd, .prettyprint .tag {color: # 1e347b; }
+.typ, .atn, .dec, .var {color: teal; }
+.pln {màu: # 48484c; }
+
+.prettyprint {
+    màu nền: # F7F7F9;
+    viền: 1px solid # E8E8E8;
+    font-size: 14px;
+    đệm: 8px;
+	khoảng trắng: bọc trước;
+}
+
+/ * Chỉ định class = linenums trước để lấy số dòng * /
+
+ol.linenums {
+    lề: 0;
+    padding-left: 33px;
+	list-style-position: bên ngoài;
+}
+ol.linenums li {
+  padding-left: 12px;
+  màu: # bebec5;
+  chiều cao dòng: 20px;
+  text-shadow: 0 1px 0 #fff;
+}
